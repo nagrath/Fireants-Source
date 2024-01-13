@@ -1,3 +1,6 @@
+*** DEV VERSION !!! Do not use on chain !!! ***
+
+
 # FireAnts coin
 
 ![GitHub Logo](http://explorer.fireants.online/images/logo.png) </br>
