@@ -119,7 +119,6 @@ public:
         consensus.nLastPOWBlock = 1575000;
         consensus.nStakeTimestampMask = 0xf; // 15
         consensus.nCoinbaseMaturity = 20;
-        consensus.nStakeMinAge = 6 * 60 * 60; // 6 hours
 
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100001");
@@ -237,7 +236,6 @@ public:
         consensus.nLastPOWBlock = 0x7fffffff;
         consensus.nStakeTimestampMask = 0xf;
         consensus.nCoinbaseMaturity = 10;
-        consensus.nStakeMinAge = 8 * 60 * 60;
 
         pchMessageStart[0] = 0xd9;
         pchMessageStart[1] = 0x7a;
@@ -355,7 +353,6 @@ public:
         consensus.nLastPOWBlock = 1000;
         consensus.nStakeTimestampMask = 0xf;
         consensus.nCoinbaseMaturity = 10;
-        consensus.nStakeMinAge = 1 * 60 * 60;
 
         pchMessageStart[0] = 0x74;
         pchMessageStart[1] = 0x99;
